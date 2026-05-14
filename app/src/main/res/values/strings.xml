@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">FACEIT Scout &amp; Match Tracker</string>
+
+    <string name="back">Назад</string>
+    <string name="player_detail_title">Профиль игрока</string>
+    <string name="form_new_title">Новый игрок</string>
+    <string name="form_edit_title">Редактирование</string>
+    <string name="add_match_title">Новый матч</string>
+    <string name="edit_match_title">Редактировать матч</string>
+
+    <string name="fab_add_player_cd">Добавить игрока</string>
+    <string name="fab_add_match_cd">Добавить матч</string>
+    <string name="icon_delete_player_cd">Удалить игрока</string>
+    <string name="icon_edit_player_cd">Редактировать профиль</string>
+    <string name="icon_delete_match_cd">Удалить матч</string>
+    <string name="icon_edit_match_cd">Редактировать матч</string>
+
+    <string name="players_empty_title">Пока нет игроков</string>
+    <string name="players_empty_hint">Нажмите «+», чтобы добавить первого игрока.</string>
+    <string name="swipe_delete_hint">Удалить</string>
+
+    <string name="player_card_subtitle">Эло %1$d · Ур. %2$d</string>
+    <string name="player_loading">Загрузка…</string>
+    <string name="player_not_found">Игрок не найден</string>
+    <string name="btn_back_to_list">К списку</string>
+
+    <string name="dialog_delete_player_title">Удалить игрока?</string>
+    <string name="dialog_delete_player_message">Удалить «%1$s»? Все матчи этого игрока будут удалены.</string>
+    <string name="dialog_delete_match_title">Удалить матч?</string>
+    <string name="dialog_delete_match_message">Запись о матче будет удалена без восстановления.</string>
+
+    <string name="btn_delete">Удалить</string>
+    <string name="btn_cancel">Отмена</string>
+    <string name="btn_save_player">Сохранить игрока</string>
+    <string name="btn_save_match">Сохранить матч</string>
+    <string name="btn_set_now_date">Установить текущую дату и время</string>
+
+    <string name="field_nickname">Никнейм</string>
+    <string name="field_elo">Эло</string>
+    <string name="field_level">Уровень</string>
+    <string name="field_url">Ссылка FACEIT</string>
+    <string name="field_comment">Комментарий</string>
+    <string name="field_map">Карта</string>
+    <string name="field_result">Результат</string>
+    <string name="field_kills">Убийства</string>
+    <string name="field_deaths">Смерти</string>
+    <string name="field_date_value">Дата и время: %1$s</string>
+
+    <string name="result_win">Победа</string>
+    <string name="result_loss">Поражение</string>
+
+    <string name="stat_elo">Эло: %1$d</string>
+    <string name="stat_level">Уровень: %1$d</string>
+    <string name="stat_url">Ссылка: %1$s</string>
+    <string name="stat_comment">Комментарий: %1$s</string>
+
+    <string name="recent_matches_title">Последние матчи</string>
+    <string name="matches_empty">Матчей пока нет — добавьте первый результат.</string>
+    <string name="match_line_kd">У / С: %1$d / %2$d</string>
+    <string name="match_line_meta">%1$s · %2$s</string>
+
+    <string name="add_match_for_player">Игрок: %1$s</string>
+
+    <string name="home_title">Скаут</string>
+    <string name="home_my_elo_label">Моё эло</string>
+    <string name="home_my_nick_level">%1$s · уровень %2$d</string>
+    <string name="home_placeholder_hint">Добавьте игроков на вкладке «Команда» — тогда здесь подтянется профиль с минимальным id в базе.</string>
+    <string name="home_open_profile_cd">Открыть профиль</string>
+    <string name="home_maps_title">Карты (сыграно)</string>
+    <string name="home_map_matches">%1$d матчей</string>
+    <string name="home_elo_chart_title">Динамика эло</string>
+    <string name="home_elo_chart_hint">Синтетическая кривая по матчам + случайный шум (демо).</string>
+    <string name="home_elo_chart_hint_v2">Кривая по вашим матчам: сильнее подъём за победу и хороший K/D, просадка за поражение. Точка справа — текущее эло.</string>
+    <string name="tab_overview">Обзор</string>
+    <string name="tab_history">История</string>
+    <string name="tab_roster">Команда</string>
+    <string name="squad_empty_hint">Игроков пока нет. Нажмите «+», чтобы добавить первого в команду.</string>
+    <string name="roster_dashboard_profile_badge">Профиль на главной</string>
+    <string name="history_empty">Нет записей матчей — добавьте их в профиле игрока.</string>
+    <string name="history_line_result_kd">%1$s · У/С %2$d/%3$d</string>
+    <string name="history_elo_change">Изменение эло: %1$s · после матча %2$d</string>
+    <string name="home_stats_title">Статистика игры</string>
+    <string name="home_stat_kd">K/D</string>
+    <string name="home_stat_wr">Винрейт</string>
+    <string name="home_stat_hs">% HS</string>
+    <string name="home_stat_adr">ADR</string>
+    <string name="home_stat_record">Счёт матчей</string>
+    <string name="home_stat_wl">%1$dВ — %2$dП</string>
+</resources>
