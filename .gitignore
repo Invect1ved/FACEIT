@@ -1,0 +1,50 @@
+# Built artifacts
+*.apk
+*.aar
+*.aab
+*.ap_
+
+# ART/Dalvik
+*.dex
+
+# Java / JVM
+*.class
+
+# Generated
+bin/
+gen/
+out/
+
+# Gradle
+.gradle/
+build/
+**/build/
+
+# Local
+local.properties
+*.jks
+*.keystore
+!debug.keystore
+
+# Android Studio / IntelliJ
+*.iml
+.idea/
+captures/
+
+# NDK / native
+.externalNativeBuild/
+.cxx/
+
+# Kotlin / KSP
+.kotlin/
+**/kspCaches/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Profiling
+*.hprof
