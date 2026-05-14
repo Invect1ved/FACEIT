@@ -52,17 +52,21 @@
 ### 1. Создание репозитория на GitHub и привязка к проекту
 
 1. На GitHub: **New repository** → имя (например `FACEIT-scout`), без README, если он уже есть локально.
-2. В каталоге проекта выполните:
+2. Создайте **пустой** репозиторий на GitHub с именем **`FACEIT`** (без README, если проект уже есть локально):  
+   https://github.com/new → Owner **Invect1ved**, Repository name **FACEIT** → Create repository.
+
+3. В каталоге проекта (если Git ещё не настроен):
 
 ```bash
 git init -b main
-git remote add origin https://github.com/<ваш-логин>/<имя-репозитория>.git
+git remote add origin https://github.com/Invect1ved/FACEIT.git
 git add .
 git commit -m "feat: начальная версия приложения FACEIT Scout"
 git push -u origin main
 ```
 
-Подставьте свой URL (HTTPS или SSH). Для первого `push` GitHub запросит авторизацию (Personal Access Token или SSH-ключ).
+Удалённый репозиторий для этого проекта: **https://github.com/Invect1ved/FACEIT**  
+Для первого `push` по HTTPS GitHub запросит авторизацию (**Personal Access Token** с правом `repo` или вход через браузер в новых версиях Git Credential Manager). По SSH: `git@github.com:Invect1ved/FACEIT.git`.
 
 ### 2. Осмысленные коммиты
 
