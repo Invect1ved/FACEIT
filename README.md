@@ -47,7 +47,47 @@
 | `com.example.faceit.ui.components` | Переиспользуемые компоненты (например, список команды, график) |
 | `com.example.faceit.ui.theme` | Тема M3 |
 
+## Репозиторий на GitHub
 
+Проект: **https://github.com/Invect1ved/FACEIT**  
+Основная ветка: **`main`** (стабильная версия для сдачи лабораторной).
+
+## Работа с Git (лабораторная)
+
+### Ветвление
+
+- **`main`** — стабильная линия; сюда вливаются завершённые фрагменты работы.
+- **`feature/*`** — отдельные ветки под задачи; после проверки выполняется **merge** в `main`.
+
+### Типовой сценарий (для отчёта)
+
+```bash
+git checkout main
+git pull origin main
+git checkout -b feature/краткое-описание-задачи
+# правки в коде / документации
+git add .
+git commit -m "feat: понятное сообщение о том, что сделано"
+git push -u origin feature/краткое-описание-задачи
+git checkout main
+git merge feature/краткое-описание-задачи --no-ff -m "Merge branch 'feature/...': что влито в main"
+git push origin main
+```
+
+Флаг **`--no-ff`** сохраняет **отдельный коммит слияния** в истории — удобно для скриншотов «ветки и merge» в отчёте.
+
+### Просмотр истории и графа веток
+
+```bash
+git log --oneline --graph --all -25
+git branch -a
+```
+
+Хронология веток и слияний для этой работы: **`docs/LAB_GIT_CHRONOLOGY.md`**.
+
+## Замечание по AGP 9
+
+При необходимости в `gradle.properties` может быть `android.disallowKotlinSourceSets=false` для KSP (Room/Hilt); при обновлении AGP перепроверьте документацию Android Gradle Plugin.
 
 ## Лицензия
 
