@@ -1,0 +1,41 @@
+7022f1ed89c856f32bb309b09723f005e3f5b10c
+docs: раздел про Git, GitHub и ветвление в README
+
+Co-authored-by: Cursor <cursoragent@cursor.com>
+
+---
+4d4b949859c805182ed020071454b51efd672a26
+Update README.md
+
+Updated for a more accurate description
+---
+63c5058eed6c5736364aba054e320b2ead38d794
+docs: зафиксировать URL репозитория GitHub Invect1ved/FACEIT
+
+Co-authored-by: Cursor <cursoragent@cursor.com>
+
+---
+435651fc53b54ca4f46df5d293b221e66fdd0c5d
+feat: модуль app — Room, Hilt, Compose-экраны и навигация FACEIT Scout
+
+Co-authored-by: Cursor <cursoragent@cursor.com>
+
+---
+70c8a4805ddd38cb9e1d19b5ae45bcc8c8462296
+chore: корневая конфигурация Gradle и wrapper
+
+Co-authored-by: Cursor <cursoragent@cursor.com>
+
+---
+1d7e06385e770c3bb5d36552f65d1479d0e6402e
+docs: README с описанием проекта, стеком, запуском и разделом Git/GitHub
+
+Co-authored-by: Cursor <cursoragent@cursor.com>
+
+---
+4ab42c2d6519f07c29a0f772b4edcc329a3b98c5
+chore: добавить .gitignore для сборки Android, IDE и артефактов
+
+Co-authored-by: Cursor <cursoragent@cursor.com>
+
+---
